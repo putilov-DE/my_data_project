@@ -1,0 +1,468 @@
+{
+    "1. CAMPAIGN PERFORMANCE (Top 5 by CTR)": [
+        {
+            "campaign_name": "Campaign_677",
+            "CTR": 16.13,
+            "total_cost": 60.46
+        },
+        {
+            "campaign_name": "Campaign_100",
+            "CTR": 9.84,
+            "total_cost": 280.32
+        },
+        {
+            "campaign_name": "Campaign_730",
+            "CTR": 9.0,
+            "total_cost": 233.87
+        },
+        {
+            "campaign_name": "Campaign_177",
+            "CTR": 8.89,
+            "total_cost": 99.24
+        },
+        {
+            "campaign_name": "Campaign_797",
+            "CTR": 8.7,
+            "total_cost": 145.84
+        }
+    ],
+    "2. ADVERTISER SPENDING": [
+        {
+            "advertiser_name": "Advertiser_60",
+            "total_cost": 17656.82,
+            "CTR": 4.97
+        },
+        {
+            "advertiser_name": "Advertiser_91",
+            "total_cost": 17649.72,
+            "CTR": 4.82
+        },
+        {
+            "advertiser_name": "Advertiser_37",
+            "total_cost": 17268.17,
+            "CTR": 4.94
+        },
+        {
+            "advertiser_name": "Advertiser_45",
+            "total_cost": 16925.92,
+            "CTR": 5.0
+        },
+        {
+            "advertiser_name": "Advertiser_88",
+            "total_cost": 16915.32,
+            "CTR": 5.45
+        }
+    ],
+    "3. COST EFFICIENCY (CPM & CPC)": [
+        {
+            "country_name": "Germany",
+            "campaign_id": 510,
+            "total_revenue": 100.28,
+            "total_cost": 466.79,
+            "CPM": 2345.68,
+            "CPC": 31.12
+        },
+        {
+            "country_name": "Germany",
+            "campaign_id": 144,
+            "total_revenue": 98.61,
+            "total_cost": 377.98,
+            "CPM": 2276.99,
+            "CPC": 25.2
+        },
+        {
+            "country_name": "Germany",
+            "campaign_id": 241,
+            "total_revenue": 90.84,
+            "total_cost": 265.98,
+            "CPM": 2180.16,
+            "CPC": 16.62
+        },
+        {
+            "country_name": "USA",
+            "campaign_id": 539,
+            "total_revenue": 89.27,
+            "total_cost": 376.24,
+            "CPM": 2381.27,
+            "CPC": 28.94
+        },
+        {
+            "country_name": "Germany",
+            "campaign_id": 578,
+            "total_revenue": 85.91,
+            "total_cost": 423.11,
+            "CPM": 2299.51,
+            "CPC": 28.21
+        },
+        {
+            "country_name": "Australia",
+            "campaign_id": 539,
+            "total_revenue": 85.79,
+            "total_cost": 389.26,
+            "CPM": 2199.21,
+            "CPC": 25.95
+        },
+        {
+            "country_name": "UK",
+            "campaign_id": 808,
+            "total_revenue": 84.81,
+            "total_cost": 419.54,
+            "CPM": 2292.57,
+            "CPC": 27.97
+        },
+        {
+            "country_name": "India",
+            "campaign_id": 41,
+            "total_revenue": 83.47,
+            "total_cost": 308.29,
+            "CPM": 2446.75,
+            "CPC": 23.71
+        },
+        {
+            "country_name": "Germany",
+            "campaign_id": 315,
+            "total_revenue": 83.38,
+            "total_cost": 445.96,
+            "CPM": 2310.67,
+            "CPC": 37.16
+        },
+        {
+            "country_name": "UK",
+            "campaign_id": 220,
+            "total_revenue": 82.64,
+            "total_cost": 472.23,
+            "CPM": 2259.47,
+            "CPC": 42.93
+        },
+        {
+            "country_name": "Australia",
+            "campaign_id": 217,
+            "total_revenue": 81.46,
+            "total_cost": 397.46,
+            "CPM": 2271.2,
+            "CPC": 30.57
+        },
+        {
+            "country_name": "Germany",
+            "campaign_id": 419,
+            "total_revenue": 81.25,
+            "total_cost": 404.75,
+            "CPM": 2261.17,
+            "CPC": 31.13
+        },
+        {
+            "country_name": "USA",
+            "campaign_id": 334,
+            "total_revenue": 81.02,
+            "total_cost": 391.14,
+            "CPM": 2370.55,
+            "CPC": 27.94
+        },
+        {
+            "country_name": "Australia",
+            "campaign_id": 671,
+            "total_revenue": 80.52,
+            "total_cost": 237.88,
+            "CPM": 2162.55,
+            "CPC": 18.3
+        },
+        {
+            "country_name": "India",
+            "campaign_id": 46,
+            "total_revenue": 80.14,
+            "total_cost": 328.95,
+            "CPM": 2418.75,
+            "CPC": 23.5
+        },
+        {
+            "country_name": "India",
+            "campaign_id": 983,
+            "total_revenue": 79.89,
+            "total_cost": 375.23,
+            "CPM": 2330.62,
+            "CPC": 26.8
+        },
+        {
+            "country_name": "Germany",
+            "campaign_id": 576,
+            "total_revenue": 79.41,
+            "total_cost": 454.65,
+            "CPM": 2250.74,
+            "CPC": 30.31
+        },
+        {
+            "country_name": "India",
+            "campaign_id": 360,
+            "total_revenue": 78.72,
+            "total_cost": 380.08,
+            "CPM": 2196.99,
+            "CPC": 27.15
+        },
+        {
+            "country_name": "India",
+            "campaign_id": 352,
+            "total_revenue": 78.15,
+            "total_cost": 407.02,
+            "CPM": 2200.11,
+            "CPC": 33.92
+        },
+        {
+            "country_name": "Australia",
+            "campaign_id": 888,
+            "total_revenue": 77.71,
+            "total_cost": 373.94,
+            "CPM": 2280.12,
+            "CPC": 31.16
+        },
+        {
+            "country_name": "Germany",
+            "campaign_id": 227,
+            "total_revenue": 77.63,
+            "total_cost": 274.75,
+            "CPM": 2233.74,
+            "CPC": 21.13
+        },
+        {
+            "country_name": "Germany",
+            "campaign_id": 350,
+            "total_revenue": 77.51,
+            "total_cost": 461.45,
+            "CPM": 2116.74,
+            "CPC": 30.76
+        },
+        {
+            "country_name": "India",
+            "campaign_id": 897,
+            "total_revenue": 77.35,
+            "total_cost": 355.52,
+            "CPM": 2418.5,
+            "CPC": 29.63
+        },
+        {
+            "country_name": "Germany",
+            "campaign_id": 891,
+            "total_revenue": 77.19,
+            "total_cost": 357.55,
+            "CPM": 2277.39,
+            "CPC": 25.54
+        },
+        {
+            "country_name": "UK",
+            "campaign_id": 82,
+            "total_revenue": 76.94,
+            "total_cost": 383.39,
+            "CPM": 2190.8,
+            "CPC": 27.39
+        },
+        {
+            "country_name": "Germany",
+            "campaign_id": 921,
+            "total_revenue": 76.84,
+            "total_cost": 355.68,
+            "CPM": 2387.11,
+            "CPC": 25.41
+        },
+        {
+            "country_name": "USA",
+            "campaign_id": 739,
+            "total_revenue": 76.6,
+            "total_cost": 410.0,
+            "CPM": 2397.66,
+            "CPC": 29.29
+        },
+        {
+            "country_name": "India",
+            "campaign_id": 578,
+            "total_revenue": 76.53,
+            "total_cost": 410.31,
+            "CPM": 2242.13,
+            "CPC": 27.35
+        },
+        {
+            "country_name": "Germany",
+            "campaign_id": 236,
+            "total_revenue": 76.41,
+            "total_cost": 348.51,
+            "CPM": 2050.06,
+            "CPC": 26.81
+        },
+        {
+            "country_name": "USA",
+            "campaign_id": 704,
+            "total_revenue": 76.11,
+            "total_cost": 362.41,
+            "CPM": 2237.1,
+            "CPC": 25.89
+        }
+    ],
+    "4. REGIONAL ANALYSIS (ROAS)": [
+        {
+            "country_name": "USA",
+            "total_revenue": 23755.66,
+            "ROAS": 0.12
+        },
+        {
+            "country_name": "Australia",
+            "total_revenue": 23582.22,
+            "ROAS": 0.12
+        },
+        {
+            "country_name": "India",
+            "total_revenue": 23533.09,
+            "ROAS": 0.12
+        },
+        {
+            "country_name": "Germany",
+            "total_revenue": 23457.15,
+            "ROAS": 0.12
+        },
+        {
+            "country_name": "UK",
+            "total_revenue": 23165.71,
+            "ROAS": 0.12
+        }
+    ],
+    "5. MOST ENGAGED USERS": [
+        {
+            "user_id": 175096,
+            "total_impressions": 4,
+            "total_clicks": 3.0,
+            "user_CTR": 75.0
+        },
+        {
+            "user_id": 107187,
+            "total_impressions": 2,
+            "total_clicks": 2.0,
+            "user_CTR": 100.0
+        },
+        {
+            "user_id": 110553,
+            "total_impressions": 2,
+            "total_clicks": 2.0,
+            "user_CTR": 100.0
+        },
+        {
+            "user_id": 114182,
+            "total_impressions": 2,
+            "total_clicks": 2.0,
+            "user_CTR": 100.0
+        },
+        {
+            "user_id": 114277,
+            "total_impressions": 2,
+            "total_clicks": 2.0,
+            "user_CTR": 100.0
+        },
+        {
+            "user_id": 114838,
+            "total_impressions": 2,
+            "total_clicks": 2.0,
+            "user_CTR": 100.0
+        },
+        {
+            "user_id": 115314,
+            "total_impressions": 2,
+            "total_clicks": 2.0,
+            "user_CTR": 100.0
+        },
+        {
+            "user_id": 119337,
+            "total_impressions": 2,
+            "total_clicks": 2.0,
+            "user_CTR": 100.0
+        },
+        {
+            "user_id": 126031,
+            "total_impressions": 2,
+            "total_clicks": 2.0,
+            "user_CTR": 100.0
+        },
+        {
+            "user_id": 134255,
+            "total_impressions": 2,
+            "total_clicks": 2.0,
+            "user_CTR": 100.0
+        },
+        {
+            "user_id": 137658,
+            "total_impressions": 2,
+            "total_clicks": 2.0,
+            "user_CTR": 100.0
+        },
+        {
+            "user_id": 142168,
+            "total_impressions": 2,
+            "total_clicks": 2.0,
+            "user_CTR": 100.0
+        },
+        {
+            "user_id": 146566,
+            "total_impressions": 2,
+            "total_clicks": 2.0,
+            "user_CTR": 100.0
+        },
+        {
+            "user_id": 148871,
+            "total_impressions": 2,
+            "total_clicks": 2.0,
+            "user_CTR": 100.0
+        },
+        {
+            "user_id": 154129,
+            "total_impressions": 2,
+            "total_clicks": 2.0,
+            "user_CTR": 100.0
+        },
+        {
+            "user_id": 158513,
+            "total_impressions": 2,
+            "total_clicks": 2.0,
+            "user_CTR": 100.0
+        },
+        {
+            "user_id": 160458,
+            "total_impressions": 2,
+            "total_clicks": 2.0,
+            "user_CTR": 100.0
+        },
+        {
+            "user_id": 162652,
+            "total_impressions": 2,
+            "total_clicks": 2.0,
+            "user_CTR": 100.0
+        },
+        {
+            "user_id": 164544,
+            "total_impressions": 2,
+            "total_clicks": 2.0,
+            "user_CTR": 100.0
+        },
+        {
+            "user_id": 174562,
+            "total_impressions": 2,
+            "total_clicks": 2.0,
+            "user_CTR": 100.0
+        }
+    ],
+    "6. BUDGET CONSUMPTION (>80%)": [],
+    "7. DEVICE PERFORMANCE": [
+        {
+            "device": "Mobile",
+            "total_impressions": 314073,
+            "total_clicks": 15861.0,
+            "CTR": 5.05
+        },
+        {
+            "device": "Tablet",
+            "total_impressions": 314082,
+            "total_clicks": 15801.0,
+            "CTR": 5.03
+        },
+        {
+            "device": "Desktop",
+            "total_impressions": 314615,
+            "total_clicks": 15797.0,
+            "CTR": 5.02
+        }
+    ]
+}
