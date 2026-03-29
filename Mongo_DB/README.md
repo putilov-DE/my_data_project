@@ -1,17 +1,12 @@
-# AdTech Data Engineering Project: SQL vs MongoDB
+# AdTech Data Engineering Project:  MongoDB
 
-This project demonstrates and compares ETL pipelines and analytical queries for an advertising platform using two different database paradigms: Relational (SQL) and Document-oriented (MongoDB).
+This project demonstrates and compares ETL pipelines and analytical queries for an advertising platform using  Document-oriented (MongoDB) approach
 
 ## Project Structure
 
-The repository is divided into two main environments:
-
-### 1. `/sql_db` (Relational Approach)
-- Contains normalized table schemas (Users, Campaigns, Events).
-- Traditional SQL queries and JOINs for ad performance analysis.
-
-### 2. `/mongo_db` (NoSQL / Document Approach)
-- **Data Modeling**: Implements a "Matryoshka" (nested) schema where clicks are stored inside impressions, and impressions inside users.
+The repository has NOSQL environment:
+###  `/mongo_db` (NoSQL / Document Approach)
+- **Data Modeling**: Implements a nested schema where clicks are stored inside impressions, and impressions inside users.
 - **ETL Process**: Python (Pandas & PyMongo) script transforming 2 million rows of raw CSV into nested JSON structures.
 - **Advanced Analytics**: 5 complex MongoDB Aggregation Pipelines:
   - `task_1_user_history.json`: Full ad interaction history for a specific user.
@@ -22,5 +17,5 @@ The repository is divided into two main environments:
 
 ## Tech Stack
 - **Languages**: Python (Pandas, PyMongo)
-- **Databases**: MongoDB (Docker), SQL
+- **Databases**: MongoDB (Docker)
 - **Formats**: JSON, BSON, CSV
