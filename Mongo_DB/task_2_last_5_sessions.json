@@ -1,0 +1,49 @@
+[
+    {
+        "_id": 23,
+        "demographics": {
+            "age": 49,
+            "gender": "Male",
+            "location": "Australia",
+            "signup_date": "2022-08-31"
+        },
+        "last_5_sessions": [
+            {
+                "event_id": "5260355e-4ae9-4e43-9f2b-81a1da0c9998",
+                "timestamp": "2024-10-08T12:24:18",
+                "device_location": null,
+                "campaign_name": "Campaign_565",
+                "advertiser_name": "Advertiser_57",
+                "ad_category": " Finance",
+                "clicks": []
+            },
+            {
+                "event_id": "7d4b92c2-57de-46b9-9b22-6b1e6f6e9998",
+                "timestamp": "2024-11-03T17:28:31",
+                "device_location": null,
+                "campaign_name": "Campaign_582",
+                "advertiser_name": "Advertiser_58",
+                "ad_category": " Education",
+                "clicks": []
+            },
+            {
+                "event_id": "c83cadb7-c970-4acb-9694-65d3488403ab",
+                "timestamp": "2024-12-01T08:26:59",
+                "device_location": null,
+                "campaign_name": "Campaign_783",
+                "advertiser_name": "Advertiser_78",
+                "ad_category": " Technology",
+                "clicks": []
+            },
+            {
+                "event_id": "92158bc8-25cf-40a1-8350-0754c6c81b85",
+                "timestamp": "2024-10-30T21:31:25",
+                "device_location": null,
+                "campaign_name": "Campaign_370",
+                "advertiser_name": "Advertiser_39",
+                "ad_category": " Finance",
+                "clicks": []
+            }
+        ]
+    }
+]

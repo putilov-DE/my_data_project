@@ -1,0 +1,14 @@
+# Ignore raw data files
+*.csv
+*.zip
+
+# Ignore Python environments and cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+env/
+.env
+
+# Ignore OS files
+.DS_Store
