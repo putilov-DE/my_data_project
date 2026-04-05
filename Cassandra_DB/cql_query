@@ -1,0 +1,44 @@
+CREATE KEYSPACE IF NOT EXISTS adtech
+WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+
+USE adtech;
+-------------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS campaign_daily_performance (
+    event_date date,
+    campaign_name text,
+    total_impressions int,
+    total_clicks int,
+    ctr float,
+    PRIMARY KEY ((event_date), campaign_name)
+);
+-------------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS top_advertisers_by_spend (
+    time_window text,
+    total_spend float,
+    advertiser_name text,
+    PRIMARY KEY ((time_window), total_spend, advertiser_name)
+) WITH CLUSTERING ORDER BY (total_spend DESC, advertiser_name ASC);
+
+-------------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS user_ad_history (
+    user_id int,
+    event_timestamp timestamp,
+    campaign_name text,
+    was_clicked boolean,
+    PRIMARY KEY ((user_id), event_timestamp)
+) WITH CLUSTERING ORDER BY (event_timestamp DESC);
+-------------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS top_users_by_clicks (
+    time_window text,
+    total_clicks int,
+    user_id int,
+    PRIMARY KEY ((time_window), total_clicks, user_id)
+) WITH CLUSTERING ORDER BY (total_clicks DESC, user_id ASC);
+-------------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS top_advertisers_by_region (
+    region text,
+    time_window text,
+    total_spend float,
+    advertiser_name text,
+    PRIMARY KEY ((region, time_window), total_spend, advertiser_name)
+) WITH CLUSTERING ORDER BY (total_spend DESC, advertiser_name ASC);
