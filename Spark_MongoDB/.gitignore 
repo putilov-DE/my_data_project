@@ -1,0 +1,8 @@
+
+venv/git
+mongo_hw_data/
+*.csv
+.idea/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store

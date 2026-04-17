@@ -1,0 +1,45 @@
+services:
+  # Dedicated MongoDB instance for Amazon Reviews data storage
+  mongodb:
+    image: mongo:latest
+    container_name: mongo_db
+    ports:
+      - "27017:27017" # Exposing MongoDB to the host machine
+    volumes:
+      - mongo_hw_data:/data/db # Persistent storage for MongoDB collections
+
+  # Spark Master node - orchestrates the cluster
+  spark-master:
+    # Using bitnamilegacy because standard bitnami tags were recently moved/deprecated
+    image: bitnamilegacy/spark:3.5.1
+    # Force amd64 platform to run via Rosetta emulation on Apple Silicon (M1/M2/M3)
+    platform: linux/amd64
+    container_name: spark_master
+    environment:
+      - SPARK_MODE=master
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+    ports:
+      - "8080:8080" # Spark Master Web UI
+      - "7077:7077" # Cluster communication port
+    volumes:
+      - ./workspace:/opt/bitnami/spark/workspace # Shared folder for scripts and CSV files
+
+  # Spark Worker node - performs the actual data processing
+  spark-worker:
+    image: bitnamilegacy/spark:3.5.1
+    platform: linux/amd64
+    container_name: spark_worker
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark-master:7077 # Connecting to the master node
+      - SPARK_WORKER_CORES=2 # Resource allocation: 2 CPU cores
+      - SPARK_WORKER_MEMORY=2g # Resource allocation: 2GB RAM
+      - SPARK_RPC_AUTHENTICATION_ENABLED=no
+    depends_on:
+      - spark-master # Worker waits for Master to be ready
+    volumes:
+      - ./workspace:/opt/bitnami/spark/workspace # Access to the same data folder
+
+# Define named volumes for data persistence
+volumes:
+  mongo_hw_data:
