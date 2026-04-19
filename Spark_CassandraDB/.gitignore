@@ -1,0 +1,18 @@
+# Python specifics
+venv/
+__pycache__/
+*.py[cod]
+
+# IDE specifics (PyCharm, VSCode)
+.idea/
+.vscode/
+
+# Project data (Avoid uploading large CSVs and DB storage)
+*.csv
+cassandra_data/
+workspace/spark-warehouse/
+workspace/metastore_db/
+checkpoint/
+
+# OS specifics
+.DS_Store

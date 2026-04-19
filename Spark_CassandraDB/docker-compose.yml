@@ -1,0 +1,48 @@
+
+services:
+  cassandra:
+    image: cassandra:latest
+    container_name: cassandra_db
+    ports:
+      - "9042:9042"
+    volumes:
+      - ./cassandra_data:/var/lib/cassandra
+      - ./init.cql:/init.cql # Map the init script inside the container
+    environment:
+      - CASSANDRA_CLUSTER_NAME=AmazonCluster
+
+  redis:
+    image: redis:alpine
+    container_name: redis_cache
+    ports:
+      - "6379:6379"
+
+  spark-master:
+    image: bitnamilegacy/spark:3.5.1
+    # Force amd64 platform to run via Rosetta emulation on Apple Silicon (M1/M2/M3)
+    platform: linux/amd64
+    container_name: spark_master
+    environment:
+      - SPARK_MODE=master
+    ports:
+      - "8080:8080"
+      - "7077:7077"
+    volumes:
+      - ./workspace:/opt/bitnami/spark/workspace
+      - .:/data
+
+  spark-worker:
+    image: bitnamilegacy/spark:3.5.1
+    # Force amd64 platform to run via Rosetta emulation on Apple Silicon (M1/M2/M3)
+    platform: linux/amd64
+    container_name: spark_worker
+    environment:
+      - SPARK_MODE=worker
+      - SPARK_MASTER_URL=spark://spark-master:7077
+      - SPARK_WORKER_MEMORY=4G
+      - SPARK_WORKER_CORES=2
+    volumes:
+      - ./workspace:/opt/bitnami/spark/workspace
+      - .:/data
+    depends_on:
+      - spark-master
