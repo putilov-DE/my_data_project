@@ -1,0 +1,25 @@
+# 1. Ignore data (CRITICAL)
+*.csv
+*.zip
+*.jsonl
+data/
+
+# 2. Ignore Python virtual environments
+venv/
+env/
+.venv/
+
+# 3. Ignore Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 4. Ignore Mac system files
+.DS_Store
+
+# 5. Ignore IDE settings (PyCharm, VSCode)
+.idea/
+.vscode/
+
+# 6. Docker temporary files
+.docker/
